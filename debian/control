@@ -1,0 +1,76 @@
+Source: qtserialport-opensource-src
+Section: libs
+Priority: optional
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Uploaders: Deepin Packages Builder <packages@deepin.org>
+Build-Depends: debhelper-compat (= 13),
+               libudev-dev [linux-any],
+               pkg-kde-tools,
+               qtbase5-dev (>= 5.15.3~),
+               qtbase5-private-dev (>= 5.15.3~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.3~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.3~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.3~) <!nodoc>,
+                     qtbase5-doc-html (>= 5.15.3~) <!nodoc>
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: https://doc.qt.io/qt-5/qtserialport-index.html
+
+Package: libqt5serialport5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 serial port support
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package includes the library to use serial ports from within Qt 5.
+
+Package: libqt5serialport5-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libqt5serialport5 (= ${binary:Version}),
+         qtbase5-dev | qtbase5-gles-dev,
+         ${misc:Depends}
+Description: Qt 5 serial port development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package includes the development headers for the serial port library.
+
+Package: qt5serialport-examples
+Section: x11
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 serial port examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package constains the serial port submodule's examples.
+
+Package: qtserialport5-doc
+Architecture: all
+Build-Profiles: <!nodoc>
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 serial port documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 serial port library
+ and binaries.
+
+Package: qtserialport5-doc-html
+Architecture: all
+Build-Profiles: <!nodoc>
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 serial port HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 serial port
+ libraries and binaries.

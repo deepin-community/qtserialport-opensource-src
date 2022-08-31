@@ -1,0 +1,5 @@
+qtserialport-opensource-src (5.15.3-1+dde) stable; urgency=medium
+
+  * ['Rebuild  against by  current gcc 11.2']
+
+ -- Deepin Packages Builder <packages@deepin.org>  Wed, 31 Aug 2022 10:19:33 +0800
