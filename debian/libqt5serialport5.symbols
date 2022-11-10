@@ -18,7 +18,7 @@ libQt5SerialPort.so.5 libqt5serialport5 #MINVER#
  Qt_5.8@Qt_5.8 5.9.0
  Qt_5.9@Qt_5.9 5.9.0
  Qt_5@Qt_5 5.6.0
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0
+ (symver)Qt_5_PRIVATE_API 0
  _ZN11QSerialPort10clearErrorEv@Qt_5 5.6.0
  _ZN11QSerialPort11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN11QSerialPort11qt_metacastEPKc@Qt_5 5.6.0
@@ -74,12 +74,10 @@ libQt5SerialPort.so.5 libqt5serialport5 #MINVER#
  _ZN15QSerialPortInfo17standardBaudRatesEv@Qt_5 5.6.0
  _ZN15QSerialPortInfo4swapERS_@Qt_5 5.6.0
  _ZN15QSerialPortInfoC1ERK11QSerialPort@Qt_5 5.6.0
- _ZN15QSerialPortInfoC1ERK22QSerialPortInfoPrivate@Qt_5_PRIVATE_API 5.4.1
  _ZN15QSerialPortInfoC1ERK7QString@Qt_5 5.6.0
  _ZN15QSerialPortInfoC1ERKS_@Qt_5 5.6.0
  _ZN15QSerialPortInfoC1Ev@Qt_5 5.6.0
  _ZN15QSerialPortInfoC2ERK11QSerialPort@Qt_5 5.6.0
- _ZN15QSerialPortInfoC2ERK22QSerialPortInfoPrivate@Qt_5_PRIVATE_API 5.4.1
  _ZN15QSerialPortInfoC2ERK7QString@Qt_5 5.6.0
  _ZN15QSerialPortInfoC2ERKS_@Qt_5 5.6.0
  _ZN15QSerialPortInfoC2Ev@Qt_5 5.6.0

@@ -1,2 +1,2 @@
-usr/lib/*/libQt5SerialPort.so.5
-usr/lib/*/libQt5SerialPort.so.5.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5SerialPort.so.5
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5SerialPort.so.5.*
