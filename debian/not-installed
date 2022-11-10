@@ -1,3 +1,3 @@
-usr/include/*/qt5/QtSerialPort/5.*
-usr/lib/*/libQt5SerialPort.la
-usr/lib/*/qt5/mkspecs/modules/qt_lib_serialport_private.pri
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtSerialPort/5.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5SerialPort.la
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/modules/qt_lib_serialport_private.pri
